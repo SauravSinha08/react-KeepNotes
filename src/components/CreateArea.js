@@ -54,7 +54,7 @@ function CreateArea({ onAdd }) {
             rows={isExpanded ? 3 : 1}
           ></textarea>
         </p>
-        <button onClick={submitButton}>
+        <button onClick={submitButton} title="Add">
         <i class="fa fa-plus-circle" aria-hidden="true"></i>
         </button>
       </form>

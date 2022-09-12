@@ -5,7 +5,7 @@ function Note({ title, content, onDelete, id }) {
     <div className="note">
       <h1>{title}</h1>
       <p>{content}</p>
-      <button onClick={() => onDelete(id)}>
+      <button onClick={() => onDelete(id)} title="Delete">
       <i class="fa fa-trash" aria-hidden="true"/>
       </button>
     </div>
