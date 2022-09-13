@@ -1,6 +1,5 @@
 import React, { useState } from "react";
 
-// import { IoIosAdd } from "react-icons/io";
 
 function CreateArea({ onAdd }) {
   const [isExpanded, setExpanded] = useState(false);
